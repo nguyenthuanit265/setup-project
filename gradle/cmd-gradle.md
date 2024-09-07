@@ -22,3 +22,9 @@ Example:
 .\gradlew.bat clean :asset:generateProto --info
 
 ```
+
+#### Clear Gradle caches:
+Run the following command to clear Gradle caches and force a fresh download of dependencies:
+```
+.\gradlew.bat clean build --refresh-dependencies
+```
