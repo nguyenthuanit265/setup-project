@@ -27,4 +27,6 @@ Example:
 Run the following command to clear Gradle caches and force a fresh download of dependencies:
 ```
 .\gradlew.bat clean build --refresh-dependencies
+
+.\gradlew clean build --refresh-dependencies
 ```
