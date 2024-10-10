@@ -87,3 +87,9 @@ aws eks get-token --cluster-name kegmil-dev-k8s --profile dev_eks_access
 ```
 aws eks --region ap-southeast-1 update-kubeconfig --name kegmil-dev-k8s --profile dev_eks_access
 ```
+
+#### Some cmds use:
+```
+-get po: kubectl get po -n dev
+-get logs: kubectl logs job-services-dev-76f7d885b5-6x9h4 job-services -n dev -f
+```
