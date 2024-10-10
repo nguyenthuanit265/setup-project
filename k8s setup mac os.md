@@ -80,5 +80,10 @@ output =
 ```
 
 #### Xong run lệnh: 
-```aws eks get-token --cluster-name kegmil-dev-k8s --profile dev_eks_access ```
-```aws eks --region ap-southeast-1 update-kubeconfig --name kegmil-dev-k8s --profile dev_eks_access ```
+```
+aws eks get-token --cluster-name kegmil-dev-k8s --profile dev_eks_access 
+```
+
+```
+aws eks --region ap-southeast-1 update-kubeconfig --name kegmil-dev-k8s --profile dev_eks_access
+```
